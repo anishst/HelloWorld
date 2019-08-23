@@ -1,1 +1,1 @@
-added a new read me
+This is a sample Java program created to test integration with Jenkins
