@@ -5,10 +5,8 @@ pipeline {
       stage('Building Hello World') {
          steps {
 
-            bat 'javac Hello.java' // not working
-            bat 'java Hello'   // not working
-            bat 'java -version'
-
+            bat 'javac Hello.java' // complie java
+            bat 'java Hello'   // run
          }
       }
 
