@@ -7,7 +7,7 @@ pipeline {
 
             //sh 'javac Hello.java' // not working
             //sh 'java Hello'   // not working
-            sh 'java -version'
+            bat 'java -version'
 
          }
       }
